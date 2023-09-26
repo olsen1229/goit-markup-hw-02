@@ -82,9 +82,12 @@ h1 {
     color: #2E2F42;
     letter-spacing: 0.32px;
     font-weight: 500;
-    
+}    
 
+nav ul li a:hover {
+    color: var(--IRIS)
 }
+
 .contacts-info {
     text-decoration: none;
     list-style-type: none;
