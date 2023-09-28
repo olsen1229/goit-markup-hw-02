@@ -31,7 +31,6 @@ h1 {
     font-size: 56px;
     text-align: center;
     font-family: Roboto;
-    font-style: normal;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 1.12px;
@@ -45,7 +44,6 @@ h1 {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     font-family: Roboto;
     font-size: 16px
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
@@ -56,7 +54,6 @@ h1 {
     color: #2e2f42;
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.54px;
@@ -68,7 +65,6 @@ h1 {
     color: #4d5ae5;
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.54px;
@@ -102,7 +98,6 @@ nav ul li a:hover {
 .techniques h2 {
     color: var(--NAVY-BLUE);
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
@@ -110,7 +105,6 @@ nav ul li a:hover {
 }
 .techniques p {
     font-size: 16px;
-    font-style: normal;
     font-weight: 400px;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -119,7 +113,6 @@ nav ul li a:hover {
 
 .what-we-do h2 {
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
@@ -133,7 +126,6 @@ nav ul li a:hover {
     color: var(--NAVY-BLUE);
     text-align: center;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
@@ -144,7 +136,6 @@ nav ul li a:hover {
 .team-members h3 {
     color: var(--SLATE);
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px; 
@@ -154,7 +145,6 @@ nav ul li a:hover {
 .team-members p {
     color: var(--SLATE);
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -165,7 +155,6 @@ footer {
     background-color: #2E2F42;
     color: #F4F4FD;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
