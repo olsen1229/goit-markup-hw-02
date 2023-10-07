@@ -2,6 +2,9 @@
     --IRIS: #4D5AE5;
     --NAVY-BLUE: #2e2f42;
     --SLATE: #434455;
+    --CLOUD: #f4f4fd;
+    --ocean:#4f42b5;
+
 
 
 }
@@ -12,8 +15,6 @@ ul {
     
 
 }
-
-
 section.contact {
     text-decoration: none;
 
@@ -34,6 +35,7 @@ h1 {
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 1.12px;
+    text-transform: uppercase; 
 }
 
 .title {
@@ -42,27 +44,22 @@ h1 {
     border-radius: 4px;
     border: none;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    font-family: Roboto;
     font-size: 16px
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
+    
 }
 
-.logo {
-    text-decoration: none;
-    color: #2e2f42;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-
-
+.title button:hover {
+    cursor: pointer;
+    background-color: var(--ocean);
+    
 }
-.logo span {
+
+.web {
     color: #4d5ae5;
+    text-decoration: none;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
@@ -70,7 +67,13 @@ h1 {
     letter-spacing: 0.54px;
     text-transform: uppercase;   
 }
-.social-links {
+
+.studio-nav {
+    color: var(--NAVY-BLUE);
+           
+   
+}
+.social-link { 
     text-decoration: none;
     list-style-type: none;
     font-size: 16px;
@@ -80,8 +83,13 @@ h1 {
     font-weight: 500;
 }    
 
-nav ul li a:hover {
-    color: var(--IRIS)
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--ocean);
+}
+
+.active {
+    color: var(--ocean);
 }
 
 .contacts-info {
@@ -89,7 +97,7 @@ nav ul li a:hover {
     list-style-type: none;
     font-size: 16px;
     line-height: 24px;
-    color: #2E2F42;
+    color: var(--SLATE);
     letter-spacing: 0.32px;
     font-weight: 400;
     
@@ -151,14 +159,25 @@ nav ul li a:hover {
 
 
 }
-footer {
-    background-color: #2E2F42;
-    color: #F4F4FD;
+.text {
+    color: var(--CLOUD);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
+
+footer {
+    background-color: var(--NAVY-BLUE) ;
+}
+
+
+.studio-footer {
+    color: var(--CLOUD);
+
+}
+
+
 
 
 
